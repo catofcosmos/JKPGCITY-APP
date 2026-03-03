@@ -1,9 +1,9 @@
 {
-  "name": "jkpgcity-app",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "School project, making changes to jkpg city website, ex add events",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 <<<<<<< HEAD
@@ -23,6 +23,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "express": "^5.2.1",
     "pg": "^8.19.0"
