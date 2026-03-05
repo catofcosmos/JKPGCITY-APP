@@ -1,0 +1,7 @@
+node_modules
+.git
+.gitigore
+Dockerfile  
+docker-compose.yml
+
+//To prevent docker from using up to much space

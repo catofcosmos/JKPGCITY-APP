@@ -1,11 +1,12 @@
 {
-  "name": "backend",
+  "name": "jkpgcity-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "repository": {
     "type": "git",
     "url": "git+https://github.com/catofcosmos/JKPGCITY-APP.git"
@@ -18,4 +19,14 @@
     "url": "https://github.com/catofcosmos/JKPGCITY-APP/issues"
   },
   "homepage": "https://github.com/catofcosmos/JKPGCITY-APP#readme"
+=======
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "pg": "^8.19.0"
+  }
+>>>>>>> 6f663298c413d7e2c47225def8d2ab66dbbc37ca
 }
