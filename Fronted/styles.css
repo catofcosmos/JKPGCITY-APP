@@ -16,7 +16,7 @@ header {
 }
 
 h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .category {
@@ -39,4 +39,10 @@ h1 {
   background-color: rgb(16, 74, 182) !important;
   color: white;
   cursor: pointer;
+}
+.venues {
+  color: black;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
 }
