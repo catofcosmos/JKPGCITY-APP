@@ -6,6 +6,9 @@ const PORT = 3000;
 
 app.use(express.json());
 
+const cors = require("cors");
+app.use(cors());
+
 const pool = new Pool({
   user: "postgres",
   host: "db", // this matches the service name in docker-compose
