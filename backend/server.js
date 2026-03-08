@@ -27,6 +27,11 @@ app.get("/api/venues", async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+    res.send('Backend is running! Go to /api/venues to see data.');
+});
+
 app.listen(PORT, () => {
   console.log(` Backend is live at http://localhost:${PORT}`);
 });
+
