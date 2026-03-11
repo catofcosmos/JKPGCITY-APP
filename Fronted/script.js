@@ -1,3 +1,7 @@
+const homePage = document.getElementById('home-page');
+const venuesPage = document.getElementById('venues-page');
+const exploreBtn = document.getElementById('explore-btn');
+
 async function loadVenues() {
     try {
         // This is where you add the URL
@@ -21,6 +25,7 @@ async function loadVenues() {
                 <h3>${venue.name}</h3>
                 <p>Category: ${venue.category}</p>
                 <p>District: ${venue.district || 'N/A'}</p>
+                
             `;
             listContainer.appendChild(item);
         });

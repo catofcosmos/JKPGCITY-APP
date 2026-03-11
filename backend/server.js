@@ -11,7 +11,7 @@ app.use(cors());
 
 const pool = new Pool({
   user: "postgres",
-  host: "db", // this matches the service name in docker-compose
+  host: "localhost", // this matches the service name in docker-compose
   database: "venues_db",
   password: "password",
   port: 5432,
